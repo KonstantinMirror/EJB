@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar id="ejb-jar_ID" version="2.1"
+         xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+    <description>Your first EJB application </description>
+    <display-name>Adder Application</display-name>
+    <enterprise-beans>
+        <session>
+            <ejb-name>Adder</ejb-name>
+            <home>com.datalex.FlightHome</home>
+            <remote>com.datalex.Flight</remote>
+            <ejb-class>com.datalex.FlightBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Bean</transaction-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
