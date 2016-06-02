@@ -9,6 +9,7 @@ import com.datalex.bean.Reservation;
 import com.datalex.dao.DAOFabric;
 import com.datalex.dao.IDAO;
 
+
 import javax.ejb.EJBException;
 import javax.ejb.SessionBean;
 import javax.ejb.SessionContext;
@@ -34,16 +35,19 @@ public class FlightBean implements SessionBean {
     public Customer getCustomer() throws RemoteException{
         IDAO dao = DAOFabric.getInstance();
         return dao.getCustomer("g:\\Training\\Source\\data.xml");
+
     }
 
-    FareFamily getFareFamily() throws RemoteException{
+    public FareFamily getFareFamily() throws RemoteException{
         IDAO dao = DAOFabric.getInstance();
         return dao.getFareFamily("g:\\Training\\Source\\data.xml");
+
     }
 
-    Reservation getReservation() throws RemoteException{
+    public Reservation getReservation() throws RemoteException{
         IDAO dao = DAOFabric.getInstance();
         return dao.getReservation("g:\\Training\\Source\\data.xml");
+
     }
 
 

@@ -1,9 +1,6 @@
-package com.datalex.bean;
+package com.datalex.dao;
 
-
-
-
-import com.datalex.dao.IDAO;
+import com.datalex.bean.*;
 import org.apache.log4j.Logger;
 import org.jdom.Document;
 import org.jdom.Element;
