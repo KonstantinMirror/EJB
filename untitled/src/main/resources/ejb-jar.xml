@@ -2,13 +2,13 @@
 <ejb-jar id="ejb-jar_ID" version="2.1"
          xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
-    <display-name>FlightServer</display-name>
+    <display-name>UserServer</display-name>
     <enterprise-beans>
         <session>
-            <ejb-name>Flight</ejb-name>
-            <home>com.datalex.flight.FlightHome</home>
-            <remote>com.datalex.flight.Flight</remote>
-            <ejb-class>com.datalex.flight.FlightBean</ejb-class>
+            <ejb-name>User</ejb-name>
+            <home>com.datalex.LoggingHome</home>
+            <remote>com.datalex.Logging</remote>
+            <ejb-class>com.datalex.LoggingBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Bean</transaction-type>
         </session>
