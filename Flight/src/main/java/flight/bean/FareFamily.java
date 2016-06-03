@@ -1,10 +1,11 @@
-package com.datalex.flight.bean;
+package flight.bean;
 
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FareFamily {
+public class FareFamily implements Serializable {
     private String fareFamilyCode;
     private List <String> ancillaryAirComponentCode = new ArrayList<String>();
 

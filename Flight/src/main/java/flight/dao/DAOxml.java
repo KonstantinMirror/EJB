@@ -1,6 +1,6 @@
-package com.datalex.flight.dao;
+package flight.dao;
 
-import com.datalex.flight.bean.*;
+import flight.bean.*;
 import org.apache.log4j.Logger;
 import org.jdom.Document;
 import org.jdom.Element;

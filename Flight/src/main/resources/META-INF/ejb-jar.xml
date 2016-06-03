@@ -6,9 +6,9 @@
     <enterprise-beans>
         <session>
             <ejb-name>Flight</ejb-name>
-            <home>com.datalex.flight.FlightHome</home>
-            <remote>com.datalex.flight.Flight</remote>
-            <ejb-class>com.datalex.flight.FlightBean</ejb-class>
+            <home>flight.FlightHome</home>
+            <remote>flight.Flight</remote>
+            <ejb-class>flight.FlightBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Bean</transaction-type>
         </session>

@@ -1,4 +1,4 @@
-package com.datalex.flight;
+package flight;
 
 import javax.ejb.EJBHome;
 import java.rmi.RemoteException;

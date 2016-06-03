@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EJB.iml" filepath="$PROJECT_DIR$/EJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Flight/Flight.iml" filepath="$PROJECT_DIR$/Flight/Flight.iml" />
       <module fileurl="file://$PROJECT_DIR$/UserServis/UserServis.iml" filepath="$PROJECT_DIR$/UserServis/UserServis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserServis/user.iml" filepath="$PROJECT_DIR$/UserServis/user.iml" />
     </modules>
   </component>
 </project>

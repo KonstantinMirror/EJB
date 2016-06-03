@@ -1,10 +1,11 @@
-package com.datalex.flight.bean;
+package flight.bean;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Customer {
+public class Customer implements Serializable {
     private String firstName;
     private String lastName;
     private String email;
@@ -73,7 +74,7 @@ public class Customer {
                 '}';
     }
 
-    public static class Payment{
+    public static class Payment implements Serializable{
         private BigDecimal amountPaid;
         private FormOfPaymentTypeCode formOfPaymentTypeCode;
         private CurrencyCode currencyCode;

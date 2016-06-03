@@ -1,4 +1,4 @@
-package com.datalex.flight.bean;
+package flight.bean;
 
 
 public enum CurrencyCode {CNY

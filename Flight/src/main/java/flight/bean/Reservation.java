@@ -1,16 +1,17 @@
-package com.datalex.flight.bean;
+package flight.bean;
 
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Reservation {
+public class Reservation implements Serializable {
     private String code;
     private String description;
     private List<ReservationComponent> reservationComponents = new ArrayList<ReservationComponent>();
 
-    public static class ReservationComponent {
+    public static class ReservationComponent implements Serializable {
         private String componentTypeCode;
         private LocalDateTime createDateTime;
         private InternalStatus internalStatus;

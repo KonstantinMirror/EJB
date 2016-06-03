@@ -1,13 +1,13 @@
-package com.datalex.flight;
+package flight;
 
 
 
 
-import com.datalex.flight.bean.Customer;
-import com.datalex.flight.bean.FareFamily;
-import com.datalex.flight.bean.Reservation;
-import com.datalex.flight.dao.DAOFabric;
-import com.datalex.flight.dao.IDAO;
+import flight.bean.Customer;
+import flight.bean.FareFamily;
+import flight.bean.Reservation;
+import flight.dao.DAOFabric;
+import flight.dao.IDAO;
 
 
 import javax.ejb.EJBException;
