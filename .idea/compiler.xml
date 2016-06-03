@@ -24,10 +24,18 @@
         <processorPath useClasspath="true" />
         <module name="untitled" />
       </profile>
+      <profile default="false" name="Annotation profile for UserServis" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="UserServis" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EJB" target="1.6" />
       <module name="untitled" target="1.6" />
+      <module name="UserServis" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

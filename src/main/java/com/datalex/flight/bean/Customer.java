@@ -1,4 +1,4 @@
-package com.datalex.bean;
+package com.datalex.flight.bean;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

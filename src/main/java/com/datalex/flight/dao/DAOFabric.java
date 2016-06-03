@@ -1,4 +1,4 @@
-package com.datalex.dao;
+package com.datalex.flight.dao;
 
 
 

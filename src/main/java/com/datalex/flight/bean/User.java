@@ -1,4 +1,4 @@
-package com.datalex.bean;
+package com.datalex.flight.bean;
 
 
 public class User {

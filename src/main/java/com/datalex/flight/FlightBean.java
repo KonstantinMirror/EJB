@@ -3,11 +3,11 @@ package com.datalex.flight;
 
 
 
-import com.datalex.bean.Customer;
-import com.datalex.bean.FareFamily;
-import com.datalex.bean.Reservation;
-import com.datalex.dao.DAOFabric;
-import com.datalex.dao.IDAO;
+import com.datalex.flight.bean.Customer;
+import com.datalex.flight.bean.FareFamily;
+import com.datalex.flight.bean.Reservation;
+import com.datalex.flight.dao.DAOFabric;
+import com.datalex.flight.dao.IDAO;
 
 
 import javax.ejb.EJBException;
@@ -16,6 +16,9 @@ import javax.ejb.SessionContext;
 import java.rmi.RemoteException;
 
 public class FlightBean implements SessionBean {
+
+    private static final long serialVersionUID = 1L;
+
     @Override
     public void setSessionContext(SessionContext sessionContext) throws EJBException, RemoteException {
     }
@@ -30,6 +33,10 @@ public class FlightBean implements SessionBean {
 
     @Override
     public void ejbPassivate() throws EJBException, RemoteException {
+    }
+
+    public void  ejbCreate() throws EJBException{
+
     }
 
     public Customer getCustomer() throws RemoteException{

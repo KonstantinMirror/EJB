@@ -6,9 +6,9 @@
     <enterprise-beans>
         <session>
             <ejb-name>User</ejb-name>
-            <home>com.datalex.LoggingHome</home>
-            <remote>com.datalex.Logging</remote>
-            <ejb-class>com.datalex.LoggingBean</ejb-class>
+            <home>com.datalex.logging.LoggingHome</home>
+            <remote>com.datalex.logging.Logging</remote>
+            <ejb-class>com.datalex.logging.LoggingBean</ejb-class>
             <session-type>Stateless</session-type>
             <transaction-type>Bean</transaction-type>
         </session>

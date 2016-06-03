@@ -1,4 +1,4 @@
-package com.datalex;
+package com.datalex.logging;
 
 import javax.ejb.EJBObject;
 

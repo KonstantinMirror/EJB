@@ -3,9 +3,9 @@ package com.datalex.flight;
 
 
 
-import com.datalex.bean.Customer;
-import com.datalex.bean.FareFamily;
-import com.datalex.bean.Reservation;
+import com.datalex.flight.bean.Customer;
+import com.datalex.flight.bean.FareFamily;
+import com.datalex.flight.bean.Reservation;
 
 import javax.ejb.EJBObject;
 import java.rmi.RemoteException;
