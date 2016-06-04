@@ -48,6 +48,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EJB" target="1.6" />
+      <module name="EJB_" target="1.6" />
       <module name="Flight" target="1.6" />
       <module name="untitled" target="1.6" />
       <module name="user" target="1.6" />

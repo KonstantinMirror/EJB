@@ -8,7 +8,7 @@ public class TestDB {
     @Test
     public void testDB(){
         IUserDao userDao = new DbDao();
-        assertTrue(userDao.getUser("Alex","123"));
+        assertTrue(userDao.getUser("Alex","123456"));
     }
 
 
