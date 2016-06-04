@@ -1,5 +1,8 @@
 package com.datalex.logging;
 
+import com.db.DbDao;
+import com.db.IUserDao;
+
 import javax.ejb.EJBException;
 import javax.ejb.SessionBean;
 import javax.ejb.SessionContext;
@@ -34,9 +37,9 @@ public class LoggingBean implements SessionBean {
 
     }
 
-    public  boolean isExecistUser(String name,String pswd){
-        return true;
+    public  boolean isExecistUser(String login,String pswd){
+        IUserDao userDao = new DbDao();
+        boolean isExecist = userDao.getUser(login,pswd);
+        return isExecist;
     }
-
-
 }

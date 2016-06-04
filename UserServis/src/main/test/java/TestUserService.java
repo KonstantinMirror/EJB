@@ -27,7 +27,7 @@ public class TestUserService {
                     LoggingHome.class);
             Logging logging = home.create();
             System.out.println("Get service");
-            System.out.println(logging.isExecistUser("", ""));
+            System.out.println(logging.isExecistUser("Alex", "123456"));
         } catch (Exception e) {
             e.printStackTrace();
         }
